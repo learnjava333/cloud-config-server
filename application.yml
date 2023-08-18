@@ -7,11 +7,11 @@ eureka:
   instance:
     hostname: LAPTOP-7DTQQ2IL
 microservice:
-   payment-servie:
+  payment-servie:
     endpoints:
       endpoint:
         uri= http://PAYMENT-SERVICE/payment/doPayment
-   order-servie:
+  order-servie:
     endpoints:
       endpoint:
         uri= http://ORDER-SERVICE/order/bookOrder
