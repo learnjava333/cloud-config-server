@@ -5,7 +5,7 @@ eureka:
     service-url:
      defalultZone: http://localhost:8761/eureka/
   instance:
-    hostname: LAPTOP-7DTQQ2IL
+    hostname: localhost
 microservice:
    payment-servie:
      endpoints:
