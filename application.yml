@@ -1,11 +1,4 @@
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-     defalultZone: http://localhost:8762/eureka/
-  instance:
-    hostname: localhost
+
 microservice:
    payment-service:
      endpoints:
